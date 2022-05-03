@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+
+import Input from './components/input';
+import Task from './components/task'
+import Header from './components/header';
+
+import { useMain } from './context/mainContentx';
 
 function App() {
+  const {tasks} = useMain()
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      
+     <Input />
+     <div className="task-box">
+            {tasks.map((task) => (
+              <Task
+               name={task.name} 
+               key={task.id} 
+               id={task.id}
+               completed={task.completed}
+               di={task.di}
+               />
+            ))}
+        </div>
     </div>
   );
 }
