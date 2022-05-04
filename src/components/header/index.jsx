@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import './style.css'
-export default function Header(){
-  return(
+import "./style.css";
+export default function Header() {
+  return (
     <>
-    <header>
-      <h1>Local To-do</h1>
-    </header>
+      <header>
+        <h1>Local To-do</h1>
+      </header>
     </>
-  )  
+  );
 }

@@ -1,6 +1,6 @@
-.container-popUp{
+.container-popUp {
   align-items: center;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.3);
   display: flex;
   height: 100vh;
   justify-content: center;
@@ -10,50 +10,50 @@
   width: 100vw;
 }
 
-.popUp{
+.popUp {
   background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
-    margin: 0 20px;
-    max-width: 100%;
-    padding: 30px 35px;
-    width: 600px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+  margin: 0 20px;
+  max-width: 100%;
+  padding: 30px 35px;
+  width: 600px;
 }
-.top-side-popUp{
+.top-side-popUp {
   display: flex;
   flex-direction: column;
 }
 
-.top-side-popUp label{
+.top-side-popUp label {
   color: #646464;
   margin: 0 0 10px;
   font-size: 35px;
   font-weight: bold;
 }
 
-.top-side-popUp input{
+.top-side-popUp input {
   width: 95%;
   background-color: none;
-  border: 2px solid rgba(0,0,0,.2);
+  border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   color: rgb(66, 66, 66);
   font-size: 20px;
   padding: 15px 0 15px 15px;
 }
 
-.top-side-popUp input:focus{
+.top-side-popUp input:focus {
   outline: none;
-  border: 2px solid rgba(0,0,0,.2);
+  border: 2px solid rgba(0, 0, 0, 0.2);
 }
 
-.bottom-side-popUp{
+.bottom-side-popUp {
   margin-top: 20px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-.bottom-side-popUp button{
+.bottom-side-popUp button {
   background-color: #fff;
   border: none;
   color: #5796f3;

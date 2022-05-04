@@ -1,15 +1,15 @@
-header{
+header {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-h1{
-  font-family: 'Nunito', sans-serif;
+h1 {
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
   color: #3b89ff;
   font-size: 40px;
-  margin:  15px 0;
+  margin: 15px 0;
 }

@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -7,8 +7,7 @@
   flex-direction: row;
 }
 
-
-.input-box{
+.input-box {
   background-color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -17,21 +16,21 @@
   box-shadow: 6px 6px 6px rgb(0 0 0 / 5%);
 }
 
-.input-box input{
+.input-box input {
   width: 90%;
   background-color: none;
-  border: 2px solid rgba(0,0,0,.2);
+  border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   color: rgb(66, 66, 66);
   font-size: 20px;
   padding: 15px 0 15px 15px;
 }
 
-.input-box input:focus{
+.input-box input:focus {
   outline: none;
-  border: 2px solid rgba(0,0,0,.2);
+  border: 2px solid rgba(0, 0, 0, 0.2);
 }
-.input-box label{
+.input-box label {
   font-weight: bold;
   background-color: #fff;
   color: rgb(122, 122, 122);
@@ -43,7 +42,7 @@
   transform: translateY(-10px);
 }
 
-.input-box button{
+.input-box button {
   font-size: 20px;
   margin-left: 10px;
   padding: 0;
@@ -54,7 +53,7 @@
   font-size: 20px;
   font-weight: 700;
 }
-form{
+form {
   display: flex;
   justify-content: space-between;
 }

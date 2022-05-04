@@ -1,8 +1,8 @@
-.task-wrapper{
+.task-wrapper {
   margin: 0 auto;
   width: 80%;
 }
-.task{
+.task {
   background-color: white;
   margin-bottom: 5px;
   display: flex;
@@ -12,24 +12,24 @@
   border-radius: 5px;
 }
 
-.task-disable{
+.task-disable {
   position: absolute;
   display: none;
 }
-h6{
+h6 {
   margin: 0;
 }
 
-.boxing{
+.boxing {
   display: flex;
   flex-direction: row;
 }
-.boxing input{
+.boxing input {
   display: none;
 }
 
-.boxing input + label:before{
-  content: '';
+.boxing input + label:before {
+  content: "";
   width: 20px;
   height: 20px;
   border-radius: 5px;
@@ -37,26 +37,26 @@ h6{
   display: inline-block;
   border: 2.5px solid rgba(0, 0, 0, 0.3);
   vertical-align: middle;
-  margin-right: 20px
+  margin-right: 20px;
 }
 
-.boxing input + label{
+.boxing input + label {
   cursor: pointer;
 }
 
-.boxing label{
+.boxing label {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.boxing input:checked+label:before {
+.boxing input:checked + label:before {
   background-color: #3b89ff;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='22' viewBox='0 0 10 10'%3E%3Cpath fill='none' stroke='%23FFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72 4.41 6.3l2.83-2.83' class='nc-icon-wrapper'/%3E%3C/svg%3E");
-  border: 2.5px solid #3b89ff
+  border: 2.5px solid #3b89ff;
 }
 
-.boxing p{
+.boxing p {
   font-size: 25px;
   color: rgba(0, 0, 0, 0.8);
   letter-spacing: 0.8px;
@@ -66,12 +66,12 @@ h6{
   white-space: normal;
 }
 
-.task button{
+.task button {
   border: none;
   background-color: white;
   font-size: 25px;
   vertical-align: middle;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.5);
   cursor: pointer;
